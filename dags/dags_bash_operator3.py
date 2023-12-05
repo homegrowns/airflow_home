@@ -28,7 +28,7 @@ with DAG(
 
     bsah_t2 = BashOperator(
         task_id="bsah_t2",
-        bash_command="echo 한글도 가능?",
+        bash_command="echo 즐즐즐즐ㅈ?",
     )
 
     bsah_t1 >> bsah_t2
