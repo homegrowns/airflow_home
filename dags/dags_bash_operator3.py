@@ -7,7 +7,7 @@ from airflow.operators.empty import EmptyOperator
 
 with DAG(
     # 직관적으로 수정할 덱을 빨리찾기위해 덱아이디(dag_id)와 파이썬 파일명 일치시킨다.  dag_id
-    dag_id="dags_bash_operator2",
+    dag_id="dags_bash_operator3",
             # 분,시,일,월,요일
     schedule="0 0 * * *",
             # UTC(세계표준시) 9시간 더늦게돈다 그래서 한국시간대로 맞춘다   
